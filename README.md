@@ -1,21 +1,24 @@
-# Jeu tic tac toe 
+# Tic_Tac_Toe
 
-## :red_circle: IMPORTANT ! 
+## Réalisation d'un tic tac toe
 
-Après avoir cloné/téléchargé le repo il faut 
-- Faire un **bundle install**
+Ci présent dans ce repo, un incroyable tic tac toe réalisé par Cyril AVRONSART & Vivien RICHAUD
 
+## INSTRUCTION !
 
+Avant de lancer le programme, veillez à bien faire un "bundle install" pour le bon fonctionnement du programme.
 
-#### Le jeu 
+## Le programme :
 
-Jeu classique du morpion, pour deux joueurs. Le programme demande le nom de chaque joueur et lui attribue un symbole (X/O). 
-Il affiche la grille et la valeur de chaque case (de 1 à 9).
-A tour de rôle les joueurs choisissent une case. 
-Il n'est pas possible de joueur sur une case déjà remplie ou de jouer en tapant autre chose qu'un chiffre de 1 à 9. 
+✅ = réussi<br>
+❗️ = non fait<br>
 
-## :computer: La team 
+✅ est à deux joueurs<br>
+✅ commence en demandant le prénom des joueurs<br>
+✅ affiche le plateau à chaque tour, puis demande au joueur auquel c'est le tour de jouer<br>
+✅ si un joueur gagne, le programme annonce qui a gagné<br>
+❗️ s'il y a match nul, le programme annonce qu'il y a match nul<br>
+✅ à la fin d'une partie, le programme propose une autre partie<br>
+✅ les X et O sont en couleur<br>
 
-Ce programme by Vivien RICHAUD et Cyril AVRONSART.
-
-Bonne correction les amis :kissing_heart:
+Il y a un petit probleme, si un joueur joue par dessus le choix de l'autre, cela ne renvoie pas d'erreur.
